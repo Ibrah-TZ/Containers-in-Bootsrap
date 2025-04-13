@@ -1,41 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <title>Containers</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <!--Header Section-->
-    <div class="container-fluid bg-dark text-white p-3 border">
-        <h1>Hobby Hub ⚽🎤🏀</h1>
-        <p>Discover and explore amazing hobbies!</p>
-    </div>
-    <!--Main Content-->
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-md-4 bg-light p-3 border">
-                <h3>Football⚽🥅</h3>
-                <p>Discover how fun it is to actually have a bond with the ball at your feet</p>
-            </div>
-            <div class="col-md-4 bg-light p-3 border">
-                <h3>Music</h3>
-                <p>Learn to play an instrument or join a band! Jam sessions every weekend.</p>
-            </div>
-            <div class="col-md-4 bg-light p-3 border">
-                <h3>Basketball</h3>
-                <p>This is not just about bouncing and throwing a ball,basketball builds teamwork,passion and bonds</p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-success text-white text-center p-4 mt-4">
-        <h2>🔥Find your Passion today😁</h2>
-        <p>Sign up for a free hobby session and explore new activities</p>
-    </div>
-    <!--Footer Section-->
-    <footer class="container-fluid bg-dark text-white text-center p-3 mt-4">
-        <p>&copy; 2025 Hobby Hub. All rights reserved.</p>
-        <p><a href="#" class="text-white text-decoration-none">Privacy Policy</a> | <a href="#" class="text-white text-decoration-none">Terms of Service</a></p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+
+<title>Bootstrap Example</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Carousel Example</h2>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+<!-- Indicators -->
+
+<ol class="carousel-indicators">
+
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+<li data-target="#myCarousel" data-slide-to="1"></li>
+
+<li data-target="#myCarousel" data-slide-to="2"></li>
+
+</ol>
+
+<!-- Wrapper for slides -->
+
+<div class="carousel-inner">
+
+<div class="item active">
+
+<img src="pic.jpg" alt="Image 1">
+
+</div>
+<div class="item">
+    <img src="pic1.jpeg" alt="Image 2">
+</div>
+<div class="item">
+    <img src="pic2.jpeg" alt="Penguin">
+</div>
+<a class="left carousel-control" href=""data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+<span class="glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+
+</div>
+</div>
+</body>
 </html>
